@@ -21,7 +21,7 @@
     <script src="js/index.js?<?php echo time(); ?>"></script>
 </head>
 
-<body class="user-select-none" style="display: none;">
+<body class="user-select-none">
     <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm sticky-top mb-3 mb-sm-4">
         <a class="navbar-brand" href="#"><?php echo $config['title'] ?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,11 @@
             </ul>
         </div>
     </nav>
+    
     <div class="container pd-4">
         <div class="page-home page-oyp">
-            1
+        <h1>Hello APEE</h1>
+    <p>鹏优创网络工作室</p>
         </div>
         <div class="page-fileList page-oyp">
             2
