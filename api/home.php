@@ -13,7 +13,8 @@ $data_2 = json_decode($data_1, true)['data']['formatData']['data'];
 $data = [];
 foreach ($data_2 as $key => $value) {
     $data[] = [
-        'key' => $key
+        'key' => $key,
+        'value' => $value
     ];
 }
 
